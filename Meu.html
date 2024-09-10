@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiz</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(211, 99, 118);
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .text-center {
+            /*position: absolute;*/
+            flex-grow: 1;
+            top: 20px; 
+            left: 20px;
+            font-size: 48px;
+            font-weight: bold;
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            background-clip: text;
+            color: transparent;
+            animation: rainbow 2s infinite;
+            max-width: 80%;
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0%; }
+            100% { background-position: 100%; }
+        }
+
+        .photo {
+            flex-shrink: 0;
+            text-align: right;
+        }
+
+        img {
+            max-width: 80%;
+        }
+
+        .socials {
+            margin-top: 20px;
+            text-align: top;
+        }
+
+        .socials a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .socials a:hover {
+            color: #0073e6;
+        }
+        .container{
+            display: flex;
+            flex-direction: row-reverse; 
+        }
+        
+        p{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center">
+        Quer namorar comigo?
+    </h1>
+
+    <div class="container">
+        <div class="photo" style="width: 40%;">
+            <img src="imagens/luiz-jpeg.png" alt="">
+            <div class="socials">
+                <img src="icone-instagram.png" alt="">
+                <a href="https://www.instagram.com/saikorrendo3141"target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <p style="width: 80%;">Meu querido amigo Luiz Fernando,(Gado Guerreiro), está à procura de uma dama para ser feliz ao lado dela e fazerem muitas coisas divertidas juntos.
+            <br> Ele é um Nerd fudido que joga jogos indies e escuta yung lixo.</br>
+            <br>Ele NÃO!!! é um usuario de Discord paneleiro, e ele não é emo...</br>
+        <br>Se você tiver interesse, entre em contato com ele pelo instagram:)</br>
+    </p>
+
+
+    </div>
+</body>
+</html>
